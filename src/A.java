@@ -10,7 +10,6 @@ public static void main(String args[]) {
 	list.add("Rohan");
 	list.add("Tushar");
 	list.add("Tejas");
-	list.add("Tanuja");
 	
 	List<String> newList = list.stream().filter(x->x.startsWith("T")).collect(Collectors.toList());
 	
